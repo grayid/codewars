@@ -11,13 +11,12 @@ console.log(combinedArray); // [1, 2, 3, 4, 5, 6]
 
 
 // #2
-/*
 function arraysCombine(array1, array2) {
   return [...array1, ...array2];
 }
 
-console.log(arraysCombine([1, 2, 3], [4, 5, 6])); // [1, 2, 3, 4, 5, 6]
-*/
+console.log(arraysCombine(array1, array2)); // [1, 2, 3, 4, 5, 6]
+
 
 
 // #3 
