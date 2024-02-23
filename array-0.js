@@ -2,8 +2,7 @@
 
 const initialArray = [1, 2, 3, 4, 5, 6, 7, 8];
 
-const evenNumbers = (number) => number % 2 === 0;
-const evenNumbersOnly = initialArray.filter(evenNumbers);
+const evenNumbersOnly = initialArray.filter(number => number % 2 === 0);
 
 console.log(evenNumbersOnly); // [2, 4, 6, 8]
 
