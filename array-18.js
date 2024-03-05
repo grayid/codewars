@@ -5,7 +5,7 @@ const initialArray = ['Say', 'привет', 'to', 'АБЦ Wold']
 
 function latinAlphabetOnly(array) {
   return array.filter(str => {
-    return /^[a-zA-Z]+$/.test(str);
+    return /^[a-zA-Z\s]+$/.test(str);
   });
 }
 
